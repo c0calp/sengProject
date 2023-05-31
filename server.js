@@ -7,10 +7,10 @@ const nodemailer = require('nodemailer');
 app.use(express.json());
 app.use(express.urlencoded({ extended: true })); 
 
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/static-webiste-with-node/public'));
 
 app.get('/', function(req,res){
-    res.sendFile(path.join(__dirname+ '/public/order.html'));
+    res.sendFile(path.join(__dirname+ '/static-webiste-with-node/public/order.html'));
 });
 
 app.listen(port, ()=> {
