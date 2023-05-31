@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DUYICO</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+
+  <header>
+    <a href="#" class="logo">DUYICO</a>
+    <div class="bx bx-menu" id="menu-icon"></div>
+    <ul class="navbar">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><i class="bx bx-shopping-bag" id="cart-icon"></i></li>
+      <div class="cart">
+        <h2 class="cart-title">Your Cart</h2>
+        <div class="cart-content">
+
+          
+          
+        </div>
+
+        <div class="total">
+          <div class="total-title">Total</div>
+          <div class="total-price">$0</div>
+        </div>
+
+        <!-----buy button-->
+        <button type="button" class="btn-buy" onclick="buyButtonClicked()">Order Now</button>
+
+        <!---cart close-->
+        <i class="bx bx-x" id="close-cart"></i>
+        
+      </div>
+    </ul>
+  </header>
+  
+  
+  
+<!----homepage---->
+  <section class="home" id="home">
+    <div class="home-text">
+      <h1>Welcome !</h1>
+      <h2>Sushi the <br> Most Precious Thing</h2>
+      <a href="#" class="btn">Today's Menu</a>
+    </div>
+
+    <div class="home-img">
+      <img src="https://www.freepnglogos.com/uploads/sushi-png/download-sushi-png-image-pngimg-26.png"/>
+
+    </div>
+    
+
+  </section>
+
+  <!-----about------->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="./img/restaurant-image.jpg">
+    </div>
+
+    <div class="about-text">
+      <span>About Us</span>
+      <h2>We speak the good <br> sushi language</h2>
+      <a href="#" class="btn">Today's Menu</a>
+    </div>
+  </section>
+
+  <section class="menu" id="menu">
+    <div class="heading">
+      <span>Food Menu</span>
+      <h2>Fresh taste and great price</h2>
+    </div>
+    <div class="menu-container">
+      <div class="box">
+        <div class="box-img">
+          <img src="./img/sushi1.jpg" alt="" class="product-img">
+        </div>
+        <h2 class="product-title">California Roll</h2>
+        <h3>Tasty</h3>
+        <span class="item-price">$11.00</span>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="./img/sushi2.jpg" alt="" class="product-img">
+        </div>
+        <h2 class="product-title">Sweet Sushi</h2>
+        <h3>Tasty Flavor</h3>
+        <span class="item-price">$10.00</span>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="./img/greentea.jpg" alt="" class="product-img">
+        </div>
+        <h2 class="product-title">Green Tea</h2>
+        <h3>Hot</h3>
+        <span class="item-price">$5.00</span>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="./img/smoothie.jpg" alt="" class="product-img">
+        </div>
+        <h2 class="product-title">Smoothie</h2>
+        <h3>Great Drink</h3>
+        <span class="item-price">$7.00</span>
+        <i class="bx bx-shopping-bag add-cart"></i>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="./new_script.js"></script>
+
+  
+
+  
+
+  
+</body>
+</html>
